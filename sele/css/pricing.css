@@ -1,0 +1,135 @@
+
+html {
+  font-size: 14px;
+}
+.top-fixed{
+  position: fixed;
+  width: 100%;
+  overflow:hidden;
+  z-index:1;
+  height: 70px;
+}
+.s-header{
+    border-bottom: 2px solid #ff7d79;
+}
+
+.s--title{
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.s-brand{
+    text-decoration: none;
+    color: #fff;   
+}
+.s-brand:hover{
+    text-decoration: none;
+    color: #ff7d79;
+}
+.s-brand > h5{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.s-link{
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 5px;
+}
+.s-link:hover{
+    color:#ff7d79;
+    text-decoration: none;
+}
+
+.s-btn{
+    background: #ff7d79 !important;
+    border: none;
+    color: #fff;
+}
+.s-btn:focus{
+    border: none !important;
+}
+
+.s-services{
+    background: url(../images/our-gallery-images/bg-services1.png)no-repeat center;
+    margin-top: -20px;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 2px solid #000;
+}
+
+.more:hover{
+    color: #ff7d79 !important;
+    text-decoration: none !important;
+}
+
+.s-btn-more{
+    background: #000;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.s-btn-more:hover{
+    background: #ff7d79;
+    border: none;
+}
+.s-color{
+    background: #000;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ff7d79;
+}
+.box-shadow:hover{
+    cursor: pointer;
+    box-shadow:2px 15px 70px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow:2px 15px 70px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow:2px 15px 70px 2px rgba(0,0,0,0.75);
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .s--title{
+    padding-top: 90px;
+    }.s-brand > h5{
+    font-size: 15px;
+    font-weight: 600;
+    }
+      .s-header{
+          margin-bottom: 20px;
+      }.s-nav{
+          padding: 2opx;
+      }
+      
+
+}
+
+
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
