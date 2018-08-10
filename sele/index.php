@@ -163,7 +163,7 @@ More detail
                             </p>
                             <p><span><i class="fa fa-cogs"></i></span> Whether you are looking for enhanced website that existing already 
                             </p>
-                     <a class="btn-more" role="button" href="services.html">More detail</a>
+                     <a class="btn-more" role="button" href="#">More detail</a>
                         </div>
                     </div>
                 </div>
@@ -184,7 +184,7 @@ More detail
                             </p>
                             <p><span><i class="fa fa-desktop"></i></span> Whether you are looking to grow your business online? 
                             </p>
-            <a class="btn-more" role="button" href="services.html">More detail</a>
+            <a class="btn-more" role="button" href="#">More detail</a>
                         </div>
                     </div>
                 </div>
